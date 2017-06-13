@@ -9,10 +9,6 @@ function [x] = cvx_solve(X, A, B, epsilon_sparsity, epsilon_orthogonality, i, mo
 %   A * X - B
 %   This code depends on CVX Solver which is available at:
 %          http://cvxr.com/cvx/
-%   by Sanaz Bahargam
-%       http://cs-people.b.edu/bahargam/
-%       E-mail:bahargam@gmail.com or bahargam@bu.edu
-%       Last updated: February-14, 2017
 
 x = [];
 
