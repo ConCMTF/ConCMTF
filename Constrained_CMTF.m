@@ -16,7 +16,7 @@ function [FacA, FacB, FacC, FacD, core] = Constrained_CMTF(tensor, matrix, dimen
 %           http://www.sandia.gov/~tgkolda/TensorToolbox/index-2.5.html
 %       and Tensor lab at:
 %           URL: http://www.tensorlab.net
-%
+
 
 %initialize the factors and core
 core = rand(dimensions(:, 1:3));
